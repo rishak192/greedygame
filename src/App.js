@@ -6,12 +6,14 @@ function App() {
   return (
   <div className="App">
 
-    <BrowserRouter>
+    <Drag/>
+
+    {/* <BrowserRouter>
       <Routes>
         <Route path="/analytics" element={<Drag/>}>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
 
   </div>
   );
