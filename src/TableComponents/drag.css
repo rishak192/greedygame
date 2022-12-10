@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 1000px;
+}
+
+td {
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+    color: #1a1818;
+}
+
+th{
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    color:#7c7070;
+}
