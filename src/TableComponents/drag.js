@@ -4,7 +4,7 @@ import 'react-date-range/dist/theme/default.css'; // theme css file
 import Button from '@mui/material/Button';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import TuneIcon from '@mui/icons-material/Tune';
-import { Input, Slider, Table } from '@mui/material';
+import { Input } from '@mui/material';
 import FilterAltIcon from '@mui/icons-material/FilterAlt';
 import './drag.css'
 
@@ -19,7 +19,6 @@ const Drag = () => {
   const[end,setEnd]=useState("")
   const[range,setRange]=useState("Slect Range")
   const[data,setData]=useState([])
-  const[originalData,setOriginalData]=useState([])
   const[app,setApp]=useState({})
 
 
