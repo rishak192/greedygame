@@ -77,7 +77,7 @@ const Drag = () => {
   }
 
   useEffect(()=>{
-    fetch(`http://go-dev.greedygame.com/v3/dummy/apps`,{
+    fetch(`https://go-dev.greedygame.com/v3/dummy/apps`,{
         method:"GET"
     }).then(res=>res.json())
     .then(res=>{
@@ -92,7 +92,7 @@ const Drag = () => {
         }
     })
 
-    fetch(`http://go-dev.greedygame.com/v3/dummy/report?startDate=2021-05-01&endDate=2021-05-03`,{
+    fetch(`https://go-dev.greedygame.com/v3/dummy/report?startDate=2021-05-01&endDate=2021-05-03`,{
         method:"GET"
     }).then(res=>res.json())
     .then(res=>{
