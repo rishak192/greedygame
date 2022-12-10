@@ -106,7 +106,6 @@ const Drag = () => {
 
         }
         setData(res["data"])
-        setOriginalData(res["data"])
     })
   },[])
 
